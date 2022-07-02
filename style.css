@@ -33,15 +33,16 @@ body {
   letter-spacing: 2px;
   font-size: 36px;
 }
+
 /* NavBar */
-#navBar{
+#navBar {
   position: sticky;
-   top: 0;
-   z-index: 100;
-  background-color:#0040AC;
-  height:60px;
-  width:100%;
-  margin-top:50px;
+  top: 0;
+  z-index: 100;
+  background-color: #0040AC;
+  height: 60px;
+  width: 100%;
+  margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
   flex-direction: row;
@@ -49,23 +50,27 @@ body {
   align-items: center;
 
 }
-#weekNo{
+
+#weekNo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width:608px;
+  width: 608px;
   margin-left: 49px;
   align-items: center;
 
 }
-#weekNo a{
+
+#weekNo a {
   text-decoration: none;
   color: white;
 }
-#text{
+
+#text {
   margin-right: 49px;
 }
-#text a{
+
+#text a {
   text-decoration: none;
   color: white;
 
@@ -322,57 +327,9 @@ hr {
   background-color: rgb(255, 255, 255);
 }
 
-
-.week-resources{
-  margin:70px 49px;
-  padding-top:60px;
-
-
-#navBar {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background-color: #0040AC;
-  height: 60px;
-  width: 100vw;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-#weekNo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 608px;
-  margin-left: 49px;
-  align-items: center;
-
-}
-
-#weekNo a {
-  text-decoration: none;
-  color: white;
-}
-
-#text {
-  margin-right: 49px;
-}
-
-#text a {
-  text-decoration: none;
-  color: white;
-
-}
-
 .week-resources {
   margin: 70px 49px;
   padding-top: 60px;
-
 }
 
 .week-resource-heading {
