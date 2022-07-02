@@ -35,12 +35,11 @@ body {
 }
 
 /* NavBar */
-#navBar {
+.navbar {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #0040AC;
-  height: 60px;
+  background-color: #0040AC !important;
   width: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -48,32 +47,19 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+}
+.navbar-collapse{
+  background-color: #0040AC !important;
+}
+.navbar-text{
+  font-size: 24px;
+  font-family: 'SequelSansMedium';
+  letter-spacing: 2px;
 }
 
-#weekNo {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 608px;
-  margin-left: 49px;
-  align-items: center;
 
-}
-
-#weekNo a {
-  text-decoration: none;
-  color: white;
-}
-
-#text {
-  margin-right: 49px;
-}
-
-#text a {
-  text-decoration: none;
-  color: white;
-
+.nav-item{
+  padding:0px 17px;
 }
 
 /* Header */
@@ -328,8 +314,8 @@ hr {
 }
 
 .week-resources {
-  margin: 70px 49px;
-  padding-top: 60px;
+  padding: 70px 49px;
+  /* padding-top: 60px; */
 }
 
 .week-resource-heading {
